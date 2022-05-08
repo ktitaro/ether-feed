@@ -1,0 +1,10 @@
+# Mac OS
+.DS_Store
+
+# Node.js
+node_modules
+*.log
+
+# Dapp
+dapp/cache
+dapp/artifacts

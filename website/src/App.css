@@ -1,0 +1,96 @@
+.app,
+.feed,
+.intro,
+.sendbox,
+.feed-app,
+.feed-header,
+.feed-content,
+.message-header {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.feed,
+.profile,
+.sendbox {
+  margin-bottom: 2rem;
+}
+
+.app {
+  margin: auto;
+  padding: 3rem;
+  max-width: 650px;
+  min-height: 100vh;
+}
+
+.intro-title,
+.intro-subtitle {
+  margin: 1rem 0;
+}
+
+.intro-title {
+  margin: unset;
+  font-size: 3rem;
+}
+
+.intro-title > b {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, #70E4C8, #2336B5);
+  -webkit-background-clip: text;
+}
+
+.intro-subtitle {
+  font-weight: normal;
+}
+
+.intro-button {
+  margin-top: 1.5rem;
+}
+
+.intro-button,
+.sendbox-button {
+  cursor: pointer;
+  padding: .5rem 2rem;
+  font-size: 1.25rem;
+  border-radius: .75rem;
+  border: .25rem solid white;
+  background-color: black;
+  color: white;
+}
+
+.sendbox,
+.sendbox-input,
+.sendbox-button,
+.feed,
+.feed-header,
+.feed-content {
+  width: 100%;
+}
+
+.sendbox-input {
+  min-height: 7rem;
+  margin-bottom: .5rem;
+}
+
+.feed-header {
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid white;
+}
+
+.message {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px dashed white;
+  margin-bottom: 1rem;
+}
+
+.message-header {
+  align-items: unset;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px dashed white;
+}
